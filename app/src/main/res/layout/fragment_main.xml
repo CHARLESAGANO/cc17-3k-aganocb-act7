@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="270dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/cover_photo" />
+
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="My Baguio Destinations "
+        android:textAlignment="center"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="30sp"/>
+
+    <!-- Buttons for categories -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+
+
+
+    <Button
+        android:id="@+id/food_trip_button"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#0C6120"
+        android:text="Food Trip"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/schools_button"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:backgroundTint="#0C6110"
+            android:text="Schools"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/parks_button"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+
+            android:backgroundTint="#0C6110"
+            android:text="Parks"
+            android:textColor="#F6F3F3"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/computer_Shop_button"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:backgroundTint="#0C6110"
+            android:text="Computer shop"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/cafe_button"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:text="Cafe"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#0C6110"
+        android:textColor="@color/white"/>
+
+
+</LinearLayout>
