@@ -30,8 +30,8 @@ class MainFragment : Fragment() {
         binding.parksButton.setOnClickListener {
             navigateToCategory("Parks")
         }
-        binding.computerShopButton.setOnClickListener {
-            navigateToCategory("Computer Shop")
+        binding.gymsButton.setOnClickListener {
+            navigateToCategory("Gyms")
         }
         binding.cafeButton.setOnClickListener {
             navigateToCategory("Cafe")
